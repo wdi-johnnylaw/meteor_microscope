@@ -1,5 +1,5 @@
 postsData = ->
-  return Posts.find().fetch()
+  return Posts.find()
 
 Template.postsList.helpers
   posts: postsData
